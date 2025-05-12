@@ -1,0 +1,45 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f3f4f6;
+  color: #111;
+}
+.header {
+  background-color: #004481;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+nav a, .header a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+.content {
+  padding: 1rem;
+}
+form input, form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+form button {
+  background-color: #004481;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.login-container {
+  max-width: 400px;
+  margin: 10% auto;
+  padding: 2rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+.error {
+  color: red;
+}
